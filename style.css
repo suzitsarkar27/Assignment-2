@@ -1,0 +1,82 @@
+/* --------------------
+this is font link
+------------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,400&family=Poppins:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+/* -------------------
+header style start
+------------------------- */
+main {
+  width: 1440px;
+  height: 3306;
+}
+.contaner {
+  width: 857px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.header-titel {
+  font-weight: 700;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.header-menu li {
+  list-style: none;
+}
+.header-menu li a {
+  text-decoration: none;
+  margin-left: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+  padding: 15px 20px;
+}
+
+/* ------------------
+Star the banar style
+----------------------- */
+.banar-part {
+  display: flex;
+  align-items: center;
+}
+.banar-tilel {
+  color: #3a3a3a;
+  font-size: 37px;
+  font-weight: 700;
+}
+.banar-infro {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+.banar-img {
+  background-image: url(/images/Circle\ design.svg);
+  background-repeat: no-repeat;
+}
+.banar-img img {
+  width: 440px;
+  height: 414px;
+}
+
+/* ------------------
+banar part end
+---------------------- */
