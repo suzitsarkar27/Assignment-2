@@ -147,19 +147,12 @@ blogs clloction style start
   font-weight: bold;
 }
 
-.button {
-  color: red;
-  text-decoration: none;
-  justify-content: right;
+.aricle-button {
   display: flex;
-}
-
-.ami {
-  justify-content: left;
-  color: #000;
-  background-color: red;
-
-  justify-content: right;
+  justify-content: end;
+  color: #e02c6d;
+  text-decoration: none;
+  padding: 30px;
 }
 
 /* -------------------------------
@@ -228,42 +221,19 @@ footer {
     width: 100%;
   }
   nav {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .banar-part {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .all-article {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
   }
-}
-.last-part {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
+  .banar-part,
+  .last-part {
     flex-direction: column;
-    justify-content: space-between;
   }
 
-  footer {
-    
-    height: 239px;
-    background: #0a0826;
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    /* flex-direction: row; */
-    justify-content: center;
-    width: 116%;
-}
+  .banar-part,
+  .all-article {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
 }
